@@ -27,6 +27,14 @@ class PowersController < ApplicationController
         render json: power, status: :ok
     end
 
+    # DELETE /powers/:id
+    def destroy
+        power = find_power
+        power.destroy
+        render json: { message: "Power Deleted"}, status: :not_found
+    end
+
+
     private
 
     # finding power by id
