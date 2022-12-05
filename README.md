@@ -115,24 +115,24 @@ http://localhost:3000/heroes/3
     "super_name": "Thor-God of Thunder",
     "powers": [
         {
-        "id": 2,
-        "name": "Manipulate Lightning",
-        "description": "The ability to create and manipulate lightning."
+            "id": 2,
+            "name": "Manipulate Lightning",
+            "description": "The ability to create and manipulate lightning."
         },
         {
-        "id": 7,
-        "name": "Super Reflex",
-        "description": "The ability to react to situations with great speed."
+            "id": 7,
+            "name": "Super Reflex",
+            "description": "The ability to react to situations with great speed."
         },
         {
-        "id": 6,
-        "name": "Super Smart",
-        "description": "The ability to use your own intelligence to create gadgets that can be used to help in combat."
+            "id": 6,
+            "name": "Super Smart",
+            "description": "The ability to use your own intelligence to create gadgets that can be used to help in combat."
         },
         {
-        "id": 5,
-        "name": "Fighting",
-        "description": "The ability to do combat without having extra-ability."
+            "id": 5,
+            "name": "Fighting",
+            "description": "The ability to do combat without having extra-ability."
         }
     ]
 }
