@@ -4,6 +4,17 @@ class HeroPowersController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
     rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 
+    # GET /hero_powers
+    def index
+        render json: HeroPower.all
+    end
+
+    # GET /hero_powers/:id
+    def show
+        hero_power = find_hero_power
+        render json: hero_power
+    end
+
     # POST /hero_powers
     def create
         hero_power = HeroPower.create!(hero_power_params)
