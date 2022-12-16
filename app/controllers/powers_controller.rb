@@ -11,7 +11,7 @@ class PowersController < ApplicationController
     # GET /powers/:id
     def show
         power = find_power
-        render json: power, status: :ok, serializer: PowerSerializer
+        render json: power, status: :ok, serializer: ShowPowerHeroSerializer
     end
 
     # POST /powers
