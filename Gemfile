@@ -35,5 +35,5 @@ end
 gem "active_model_serializers", "~> 0.10.13"
 
 # Faker 
-gem "faker", "~> 3.0"
+gem "faker", "~> 3.2"
 
